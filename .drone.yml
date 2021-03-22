@@ -12,3 +12,4 @@ steps:
     commands:
     - git clone https://github.com/drone/hello-world.git .
     - ls -la
+    - env
