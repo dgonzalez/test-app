@@ -21,7 +21,8 @@ jobs:
     executor: docker/docker
     steps:
       - run:
-        command: echo "Hello!"
+          command: |
+            echo "Hello!"
 workflows:
   commit:
     jobs:
